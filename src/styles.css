@@ -19,15 +19,14 @@ html {
 
 body {
     margin: 0;
-    display: flex;
 }
 
 
-header, main, aside {
+body, .contenedor, header, main, aside {
     display: flex;
 }
 
-header, main {
+.contenedor {
     width: 80vw;
     flex-direction: column;
 }
@@ -48,6 +47,3 @@ header {
 }
 
 
-main {
-    align-items: flex-end;
-}
