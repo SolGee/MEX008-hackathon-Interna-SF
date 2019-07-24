@@ -34,16 +34,46 @@ body, .contenedor, header, main, aside {
 aside {
     width: 20vw;
     height: 100vh;
-    background-color: darkgoldenrod;
+    background-color: #ffc800;
     justify-content: flex-start;
-    order: -2;
+    order: -1;
 
 }
 
 header {
-    height: 10vh;
-    background-color: coral;
-    
+    height: auto;
+    background-color:rgb(245, 245, 245);
+        
 }
 
+main {
+    height: 90vh;
+}
+
+header, main {
+    -webkit-box-shadow: -5px 6px 5px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: -5px 6px 5px 0px rgba(0,0,0,0.2);
+box-shadow: -5px 6px 5px 0px rgba(0,0,0,0.2);
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    color: rgb(62, 62, 62);
+
+
+}
+
+nav div {
+    display:flex;
+    justify-content: flex-end;
+    width: 4rem;
+    margin: 1rem 0 1rem 90% ;
+}
+
+nav div i {
+    font-size: 3rem;
+}
 
