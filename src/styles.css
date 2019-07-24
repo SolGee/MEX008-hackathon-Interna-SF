@@ -102,3 +102,7 @@ aside img {
     
     text-decoration: none;
 }
+
+.container-aside li a:hover {
+    cursor: pointer;
+}
