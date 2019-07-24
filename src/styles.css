@@ -14,14 +14,40 @@ html {
 }
 
 
+
+/*SELECTORES ETIQUETA*/
+
 body {
     margin: 0;
+    display: flex;
 }
 
 
-/*ASIDE*/
+header, main, aside {
+    display: flex;
+}
+
+header, main {
+    width: 80vw;
+    flex-direction: column;
+}
+
 aside {
     width: 20vw;
+    height: 100vh;
     background-color: darkgoldenrod;
+    justify-content: flex-start;
+    order: -2;
 
+}
+
+header {
+    height: 10vh;
+    background-color: coral;
+    
+}
+
+
+main {
+    align-items: flex-end;
 }
