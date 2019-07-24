@@ -76,3 +76,14 @@ nav div i {
     font-size: 3rem;
 }
 
+aside img {
+    width: 10rem;
+    margin: 1rem auto;
+}
+
+
+.container-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
