@@ -87,3 +87,7 @@ aside img {
     flex-direction: column;
     justify-content: flex-start;
 }
+
+.container-aside li {
+    list-style: none;
+}
