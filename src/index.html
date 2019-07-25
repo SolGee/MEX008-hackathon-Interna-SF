@@ -47,18 +47,23 @@
                 </div>
             </section>
             <section id="home" class="hide">
-                <div>
-                    <h1>¡Hola Laboratorian!</h1>
-                    <p>Sabemos que las finanzas son un aspecto súper importante en tu vida
-                        diaria, es por ello que creamos esta aplicación pues queremos ayudar 
-                        a tu salud financiera ¡Conócela!
-                    </p>
+                <div class="general">
+                    <div class="box-info">
+                        <h1>¡Hola Laboratorian!</h1>
+                        <p>Sabemos que las finanzas son un aspecto súper importante en tu vida
+                            diaria, es por ello que creamos esta aplicación pues queremos ayudar 
+                            a tu salud financiera ¡Conócela!
+                        </p>
+                    </div>
                     <div>
-                        <div>Recordatorios
+                        <div>
+                            <h3>Recordatorios</h3>
                             <i class="fas fa-pencil-alt"></i>
                         </div>
             
-                        <div>Tips</div>
+                        <div>
+                            <h3>Tips</h3>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -70,7 +75,9 @@
                         <div>
                             <div>
                                 <select name="income" id="income">
-                                    <option> Mensual</option>
+                                    <option>Mensual</option>
+                                    <option>Quincenal</option>
+                                    <option>Semanal</option>
                                     <option>Trimestral</option>
                                     <option>Semestral</option>
                                 </select>
@@ -118,58 +125,59 @@
             </section>
 
             <section id="expenses" class="hide">
-                    <div>
-                        Aqui puedes programar tus Egresos
+                    <div class="general">
+                            <h2>Aqui puedes programar tus egresos:</h2>
                             <div>
-                                <select name="expenses" id="expenses">
-                                    <option> Mensual</option>
-                                    <option>Trimestral</option>
-                                    <option>Semestral</option>
-                                </select>
+                                <div>
+                                    <div>
+                                        <select name="income" id="income">
+                                                <option>Mensual</option>
+                                                <option>Quincenal</option>
+                                                <option>Semanal</option>
+                                                <option>Trimestral</option>
+                                                <option>Semestral</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <h3>Gastos fijos</h3>
+                                        <i class="fas fa-utensils">Comida</i> <input type=""> 
+                                        <i class="fas fa-home">Renta</i> <input type="text"> 
+                                        <i class="fas fa-burn">Gas</i> <input type="text"> 
+                                        <i class="fas fa-wifi">Internet</i> <input type="">
+                                        <i class="fas fa-tint">Agua</i> <input type="text">
+                                        <i class="fas fa-lightbulb">Luz</i><input type="text">
+                                        <i class="fas fa-plus-circle">Agregar otro</i>
+                                    </div>
+                                </div>
+        
+                                <div>
+                                    <div>
+                                        <select name="month" id="monthsExpenses">
+                                            <option>Enero</option>
+                                            <option>Fedrero</option>
+                                            <option>Marzo</option>
+                                            <option>Abril</option>
+                                            <option>Mayo</option>
+                                            <option>Junio</option>
+                                            <option>Julio</option>
+                                            <option>Agosto</option>
+                                            <option>Septiembre</option>
+                                            <option>Octubrel</option>
+                                            <option>Noviembre</option>
+                                            <option>Diciembre</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                    <h3>Gastos Extra</h3>
+                                        <i class="fas fa-coffee">Café</i>
+                                        <i class="fas fa-plus-circle">Agregar otro</i>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <select name="month" id="monthsExpenses">
-                                    <option>Enero</option>
-                                    <option>Fedrero</option>
-                                    <option>Marzo</option>
-                                    <option>Abril</option>
-                                    <option>Mayo</option>
-                                    <option>Junio</option>
-                                    <option>Julio</option>
-                                    <option>Agosto</option>
-                                    <option>Septiembre</option>
-                                    <option>Octubrel</option>
-                                    <option>Noviembre</option>
-                                    <option>Diciembre</option>
-                                </select>
-                            </div>
-                            <div>Gastos fijos</div>
-                            <p>Comida</p>
-                            <i class="fas fa-utensils"></i> <input type=""> <p> $2,285</p>
-                            <p>Renta</p>
-                            <i class="fas fa-home"></i> <input type="text"> <p> $1,523.55</p>
-                            <p>Gas</p>
-                            <i class="fas fa-burn"></i> <input type="text"> <p> $500</p>
-                            <p>Internet</p>
-                            <i class="fas fa-wifi"></i> <input type=""> <p> $300</p>
-                            <p>Agua</p>
-                            <i class="fas fa-tint"></i> <input type="text"> <p> $150</p>
-                            <p>Luz</p>
-                            <i class="fas fa-lightbulb"></i> <input type="text"> <p> $138.25</p>
-                        </div>
-                        <div> Agrega Otro
-                                <i class="fas fa-question-circle"></i>
-                        </div>
-                        <div> Gasto Extra
-                            <p>Café</p>
-                            <i class="fas fa-coffee"></i><input type="text"> <p> $35</p>
-                            <p>Agregar otro</p>
-                            <i class="fas fa-plus-circle"></i>
-                        </div>
-                        <div>
-                            <h3>Saldo total $4,500</h3>
-                        </div>
-                    </div>
+                                <div>
+                                    <h3>Saldo total $4,500</h3>                                </div>
+                                </div>
+                     </div>
             </section>
 
             <section id="balance" class="hide">
