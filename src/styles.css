@@ -149,6 +149,12 @@ section {
     border-radius: 2rem;
 }
 
+#form-login button:hover {
+    cursor: pointer;
+    border-color: #036282;
+    border-style: solid;
+}
+
 
 #form-login input {
     width: 80%;
