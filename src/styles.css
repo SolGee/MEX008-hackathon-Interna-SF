@@ -128,7 +128,7 @@ section {
 
 }
 
-#form-login, {
+#form-login {
     margin: 10vh auto;
     display: flex;
     flex-direction: column;
