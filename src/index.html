@@ -48,18 +48,157 @@
                 </div>
             </section>
             <section></section>
-            <section id="incomes" class="hide"></section>
-            <section id="expenses" class="hide"></section>
-            <section id="balance" class="hide"></section>
+
+            <section id="incomes" class="hide">
+                <h2>¡Hola Laboratorian!</h2>
+                <p>Sabemos que las finanzas son un aspecto súper importante en tu vida
+                    diaria, es por ello que creamos esta aplicación pues queremos ayudar 
+                    a tu salud financiera ¡Conócela!
+                </p>
+                <div>Recordatorios
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+    
+                <div>Tipos</div>
+            </section>
+
+            <section id="incomes1" class="hide">
+                <div>Aqui puedes programar tus Ingresos
+                    <div>
+                        <select name="income" id="income">
+                            <option> Mensual</option>
+                            <option>Trimestral</option>
+                            <option>Semestral</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <select name="month" id="months">
+                            <option>Enero</option>
+                            <option>Fedrero</option>
+                            <option>Marzo</option>
+                            <option>Abril</option>
+                            <option>Mayo</option>
+                            <option>Junio</option>
+                            <option>Julio</option>
+                            <option>Agosto</option>
+                            <option>Septiembre</option>
+                            <option>Octubrel</option>
+                            <option>Noviembre</option>
+                            <option>Diciembre</option>
+                        </select>
+                    </div>
+
+                    <div>Egresos fijos</div>
+                    <p>Sueldo</p>
+                    <i class="fas fa-shopping-bag"></i> <input type=""> <p> $5,625</p>
+                    <p>Beca</p>
+                    <i class="fas fa-wallet"></i> <input type="text"> <p> $1,875</p>
+                    <p>Agregar otro</p>
+                    <i class="fas fa-plus-circle"></i>
+                </div>
+                <h3>Tu gasto mensual es de $7,500</h3>
+                <div> Gasto Extra
+                    <i class="fas fa-question-circle"></i>
+                    <p>Tanda</p>
+                    <i class="fas fa-coins"></i><input type="text"> <p> $2,000</p>
+                    <p>Agregar otro</p>
+                    <i class="fas fa-plus-circle"></i>
+                </div>
+                <h3>Saldo total $9,500</h3>
+            </section>
+
+            
+            <section id="expenses" class="hide">
+                    <div>Aqui puedes programar tus Egresos
+                            <div>
+                                <select name="expenses" id="expenses">
+                                    <option> Mensual</option>
+                                    <option>Trimestral</option>
+                                    <option>Semestral</option>
+        
+                                </select>
+                            </div>
+                            <div>
+                                <select name="month" id="monthsExpenses">
+                                    <option>Enero</option>
+                                    <option>Fedrero</option>
+                                    <option>Marzo</option>
+                                    <option>Abril</option>
+                                    <option>Mayo</option>
+                                    <option>Junio</option>
+                                    <option>Julio</option>
+                                    <option>Agosto</option>
+                                    <option>Septiembre</option>
+                                    <option>Octubrel</option>
+                                    <option>Noviembre</option>
+                                    <option>Diciembre</option>
+                                </select>
+                            </div>
+        
+                            <div>Gastos fijos</div>
+                            <p>Comida</p>
+                            <i class="fas fa-utensils"></i> <input type=""> <p> $2,285</p>
+                            <p>Renta</p>
+                            <i class="fas fa-home"></i> <input type="text"> <p> $1,523.55</p>
+                            <p>Gas</p>
+                            <i class="fas fa-burn"></i> <input type="text"> <p> $500</p>
+                            <p>Internet</p>
+                            <i class="fas fa-wifi"></i> <input type=""> <p> $300</p>
+                            <p>Agua</p>
+                            <i class="fas fa-tint"></i> <input type="text"> <p> $150</p>
+                            <p>Luz</p>
+                            <i class="fas fa-lightbulb"></i> <input type="text"> <p> $138.25</p>
+                        </div>
+
+                        <div> Agrega Otro
+                                <i class="fas fa-question-circle"></i>
+                        </div>
+
+                        <div> Gasto Extra
+                            
+                            <p>Café</p>
+                            <i class="fas fa-coffee"></i><input type="text"> <p> $35</p>
+                            <p>Agregar otro</p>
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                        <div>
+                            <h3>Saldo total $4,500</h3>
+                        </div>
+                        
+            </section>
+
+            
+            <section id="balance" class="hide">
+                <div>
+                    <p>Este es tu equilibrio de gastos mensual</p>
+                    <select name="" id="">
+                        <option value="enero">Enero</option>
+                        <option value="febrero">Febrero</option>
+                        <option value="marzo">Marzo</option>
+                        <option value="abril">Abril</option>
+                        <option value="mayo">Mayo</option>
+                        <option value="junio">Junio</option>
+                        <option value="julio">Julio</option>
+                        <option value="agosto">Agosto</option>
+                        <option value="septiembre">Septiembre</option>
+                        <option value="octubre">Octubre</option>
+                        <option value="noviembre">Noviembre</option>
+                        <option value="diciembre">Diciembre</option>
+                    </select>
+                </div>
+                <div></div>
+                <div></div>
+            </section>
             <section id="goals" class="hide"></section>
             <section id="modals" class="hide"></section>
             
         </main>
     </div>
     <aside>
-        <div>
+        <div class="container-aside">
             <figure>
-                <img src="" alt="">
+                <img src="../img/logo.svg" alt="logo">
             </figure>
             <ul>
                 <li><a href="#incomes">Ingresos</a></li>
@@ -69,7 +208,7 @@
             </ul>
         </div>
     </aside>
-    
+
     <script src="app.js"></script>
 </body>
 </html>
