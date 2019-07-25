@@ -14,7 +14,7 @@
         <header>
             <nav>
                 <div>
-                    <i class="fas fa-user-circle"></i>
+                    <a href="#home"><i class="fas fa-user-circle"></i></a> 
                 </div>
             </nav>
         </header>
@@ -46,29 +46,43 @@
                     <button id="form-enviar">Enviar</button>
                 </div>
             </section>
-            <section id="incomes" class="hide">
-                <h2>¡Hola Laboratorian!</h2>
-                <p>Sabemos que las finanzas son un aspecto súper importante en tu vida
-                    diaria, es por ello que creamos esta aplicación pues queremos ayudar 
-                    a tu salud financiera ¡Conócela!
-                </p>
-                <div>Recordatorios
-                    <i class="fas fa-pencil-alt"></i>
+            <section id="home" class="hide">
+                <div>
+                    <h1>¡Hola Laboratorian!</h1>
+                    <p>Sabemos que las finanzas son un aspecto súper importante en tu vida
+                        diaria, es por ello que creamos esta aplicación pues queremos ayudar 
+                        a tu salud financiera ¡Conócela!
+                    </p>
+                    <div>
+                        <div>Recordatorios
+                            <i class="fas fa-pencil-alt"></i>
+                        </div>
+            
+                        <div>Tips</div>
+                    </div>
                 </div>
-    
-                <div>Tipos</div>
             </section>
 
-            <section id="expenses" class="hide">
-                <div>Aqui puedes programar tus Ingresos
+            <section id="incomes" class="hide">
+                <div class="general">
+                    <h2>Aqui puedes programar tus ingresos:</h2>
                     <div>
-                        <select name="income" id="income">
-                            <option> Mensual</option>
-                            <option>Trimestral</option>
-                            <option>Semestral</option>
-
-                        </select>
+                        <div>
+                            <select name="income" id="income">
+                                <option> Mensual</option>
+                                <option>Trimestral</option>
+                                <option>Semestral</option>
+                            </select>
+                        </div>
+                        <div>
+                            <h3>Ingresos fijos</h3>
+                            <i class="fas fa-shopping-bag">Sueldo</i>
+                            <i class="fas fa-wallet">Beca</i>
+                            <i class="fas fa-plus-circle">Agregar otro</i>
+                        </div>
                     </div>
+                </div>
+                <div>
                     <div>
                         <select name="month" id="months">
                             <option>Enero</option>
@@ -85,28 +99,77 @@
                             <option>Diciembre</option>
                         </select>
                     </div>
+                    <div>
+                        <h3>Ingreso Extra</h3>
+                            <i class="fas fa-coins">Tanda</i>
+                            <i class="fas fa-plus-circle">Agregar otro</i>
+                    </div>
+                        <h3>Saldo total $9,500</h3>
 
-                    <div>Ingresos fijos</div>
-                    <p>Sueldo</p>
-                    <i class="fas fa-shopping-bag"></i>
-                    <p>Beca</p>
-                    <i class="fas fa-wallet"></i>
-                    <p>Agregar otro</p>
-                    <i class="fas fa-plus-circle"></i>
+                    </div>
                 </div>
-                <h5>Se abonaron $7,500 mensuales</h5>
-                <div> Ingreso Extra
-                    <i class="fas fa-question-circle"></i>
-                    <p>Tanda</p>
-                    <i class="fas fa-coins"></i>
-                    <p>Agregar otro</p>
-                    <i class="fas fa-plus-circle"></i>
+                <div>
+                    <h3>Se abonaron $7,500 mensuales</h3>
                 </div>
-                <h3>Saldo total $9,500</h3>
+
+                    
             </section>
 
-            <section id="incomes" class="hide"></section>
-            <section id="expenses" class="hide"></section>
+            <section id="expenses" class="hide">
+                    <div>
+                        Aqui puedes programar tus Egresos
+                            <div>
+                                <select name="expenses" id="expenses">
+                                    <option> Mensual</option>
+                                    <option>Trimestral</option>
+                                    <option>Semestral</option>
+                                </select>
+                            </div>
+                            <div>
+                                <select name="month" id="monthsExpenses">
+                                    <option>Enero</option>
+                                    <option>Fedrero</option>
+                                    <option>Marzo</option>
+                                    <option>Abril</option>
+                                    <option>Mayo</option>
+                                    <option>Junio</option>
+                                    <option>Julio</option>
+                                    <option>Agosto</option>
+                                    <option>Septiembre</option>
+                                    <option>Octubrel</option>
+                                    <option>Noviembre</option>
+                                    <option>Diciembre</option>
+                                </select>
+                            </div>
+                            <div>Gastos fijos</div>
+                            <p>Comida</p>
+                            <i class="fas fa-utensils"></i> <input type=""> <p> $2,285</p>
+                            <p>Renta</p>
+                            <i class="fas fa-home"></i> <input type="text"> <p> $1,523.55</p>
+                            <p>Gas</p>
+                            <i class="fas fa-burn"></i> <input type="text"> <p> $500</p>
+                            <p>Internet</p>
+                            <i class="fas fa-wifi"></i> <input type=""> <p> $300</p>
+                            <p>Agua</p>
+                            <i class="fas fa-tint"></i> <input type="text"> <p> $150</p>
+                            <p>Luz</p>
+                            <i class="fas fa-lightbulb"></i> <input type="text"> <p> $138.25</p>
+                        </div>
+                        <div> Agrega Otro
+                                <i class="fas fa-question-circle"></i>
+                        </div>
+                        <div> Gasto Extra
+                            <p>Café</p>
+                            <i class="fas fa-coffee"></i><input type="text"> <p> $35</p>
+                            <p>Agregar otro</p>
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                        <div>
+                            <h3>Saldo total $4,500</h3>
+                        </div>
+                    </div>
+            </section>
+            
             <section id="balance" class="hide">
                 <div>
                     <p>Este es tu equilibrio de gastos mensual</p>
