@@ -101,6 +101,10 @@ section {
     font-weight: 600;
 }
 
+#btn-home {
+    cursor: pointer;
+}
+
 .container-aside li a {
     color: black;
     
@@ -192,3 +196,4 @@ section {
     margin: 0 auto;
     height: 2rem;;
 }
+

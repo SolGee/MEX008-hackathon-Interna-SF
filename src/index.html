@@ -14,7 +14,7 @@
         <header>
             <nav>
                 <div>
-                    <a href="#home"><i class="fas fa-user-circle"></i></a> 
+                    <i class="fas fa-user-circle"></i>
                 </div>
             </nav>
         </header>
@@ -43,7 +43,7 @@
                     <input id="input-name" type="text" placeholder="Nombre"><br>
                     <input id="input-email" type="email" placeholder="Correo"><br>
                     <input id="input-contraseña" type="password" placeholder="Contraseña"><br>
-                    <button id="form-enviar">Enviar</button>
+                    <button id="form-send">Enviar</button>
                 </div>
             </section>
             <section id="home" class="hide">
@@ -80,10 +80,10 @@
             <section id="incomes" class="hide">
                 <div class="general">
                     <h2>Aqui puedes programar tus ingresos:</h2>
-                    <div>
+                    <div class="boards">
                         <div>
                             <div>
-                                <select name="income" id="income">
+                                <select>
                                     <option>Mensual</option>
                                     <option>Quincenal</option>
                                     <option>Semanal</option>
@@ -122,6 +122,7 @@
                                 <i class="fas fa-plus-circle">Agregar otro</i>
                             </div>
                     </div>
+
                     <div>
                         <div>
                             <h3>Saldo total $9,500</h3>
@@ -131,7 +132,7 @@
                         </div>
                     </div>
                 </div>     
-            </section>
+        </section>
 
             <section id="expenses" class="hide">
                     <div class="general">
@@ -250,7 +251,7 @@
     <aside>
         <div class="container-aside">
             <figure>
-                <img src="../img/logo.svg" alt="logo">
+                    <a id="btn-home" href="#home"><img src="../img/logo.svg" alt="logo"></a>
             </figure>
             <ul>
                 <li><a id="btn-incomes" href="#incomes">Ingresos</a></li>
