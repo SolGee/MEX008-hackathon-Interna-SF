@@ -138,5 +138,19 @@ section {
 #form-login i {
     font-size: 10rem;
     padding-bottom: 2rem;
-    color: #014d67;
+    color: #036282;
+}
+
+#form-login button {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    font-weight: 700;
+    border-radius: 2rem;
+}
+
+#form-login input {
+    width: 80%;
+    margin: 0 auto;
+    height: 2rem;;
 }
