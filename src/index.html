@@ -14,7 +14,7 @@
         <header>
             <nav>
                 <div>
-                    <a href="#home"><i class="fas fa-user-circle"></i></a> 
+                    <i class="fas fa-user-circle"></i>
                 </div>
             </nav>
         </header>
@@ -44,22 +44,36 @@
                     <input id="input-name" type="text" placeholder="Nombre"><br>
                     <input id="input-email" type="email" placeholder="Correo"><br>
                     <input id="input-contraseña" type="password" placeholder="Contraseña"><br>
-                    <button id="form-enviar">Enviar</button>
+                    <button id="form-send">Enviar</button>
                 </div>
             </section>
             <section id="home" class="hide">
-                <div>
-                    <h1>¡Hola Laboratorian!</h1>
-                    <p>Sabemos que las finanzas son un aspecto súper importante en tu vida
-                        diaria, es por ello que creamos esta aplicación pues queremos ayudar 
-                        a tu salud financiera ¡Conócela!
-                    </p>
-                    <div>
-                        <div>Recordatorios
-                            <i class="fas fa-pencil-alt"></i>
+                <div class="general">
+                    <div class="box-info">
+                        <h1>¡Hola Laboratorian!</h1>
+                        <p>Sabemos que las finanzas son un aspecto súper importante en tu vida
+                            diaria, es por ello que creamos esta aplicación pues queremos ayudar 
+                            a tu salud financiera ¡Conócela!
+                        </p>
+                    </div>
+                    <div class="boards">
+                        <div class="board1">
+                            <div>
+                                <h3>Recordatorios</h3>
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+
+                            <div>
+                                <p>Ahorrar 10% de mis ganancias</p>
+                                <p>Pagar la tanda</p>
+                            </div>
+                        </div>            
+                        <div class="board2">
+                            <h3>Tips</h3>
+                            <p>
+                                    ¡Aprende a controlarte! Es muy fácil caer en la tentación de comprar cosas a crédito, pero lo más recomendable es esperar a que ahorres el dinero necesario para comprar al contado eso que tanto quieres. Es importante que antes de adquirir cualquier cosa te preguntes si realmente lo necesitas o te es útil. Tal vez implica esperar un poco más de tiempo, pero esto es preferible que a vivir con deudas.
+                            </p>
                         </div>
-            
-                        <div>Tips</div>
                     </div>
                 </div>
             </section>
@@ -67,11 +81,13 @@
             <section id="incomes" class="hide">
                 <div class="general">
                     <h2>Aqui puedes programar tus ingresos:</h2>
-                    <div>
+                    <div class="boards">
                         <div>
                             <div>
-                                <select name="income" id="income">
-                                    <option> Mensual</option>
+                                <select>
+                                    <option>Mensual</option>
+                                    <option>Quincenal</option>
+                                    <option>Semanal</option>
                                     <option>Trimestral</option>
                                     <option>Semestral</option>
                                 </select>
@@ -107,6 +123,7 @@
                                 <i class="fas fa-plus-circle">Agregar otro</i>
                             </div>
                     </div>
+
                     <div>
                         <h3>Ingreso Extra</h3>
                             <i class="fas fa-coins">Tanda</i>
@@ -117,16 +134,16 @@
                     <div>Ingresos fijos</div>
                     <p>Sueldo</p>
                     <i class="fas fa-shopping-bag"></i> 
-                    <div class="progress-bar blue">
+                    <!-- <div class="progress-bar blue">
                         <span style= width:15%></span>
-                    </div>
+                    </div> -->
                     
                      <p> $5,625</p>
                     <p>Beca</p>
                     <i class="fas fa-wallet"></i> 
-                    <div class="progress-bar orange">
+                    <!-- <div class="progress-bar orange">
                         <span style= width:15%></span>
-                    </div>
+                    </div> -->
                      <p> $1,875</p>
                     <p>Agregar otro</p>
                     <i class="fas fa-plus-circle"></i>
@@ -151,61 +168,62 @@
                         </div>
                     </div>
                 </div>     
-            </section>
+        </section>
 
             <section id="expenses" class="hide">
-                    <div>
-                        Aqui puedes programar tus Egresos
+                    <div class="general">
+                            <h2>Aqui puedes programar tus egresos:</h2>
                             <div>
-                                <select name="expenses" id="expenses">
-                                    <option> Mensual</option>
-                                    <option>Trimestral</option>
-                                    <option>Semestral</option>
-                                </select>
+                                <div>
+                                    <div>
+                                        <select name="income" id="income">
+                                                <option>Mensual</option>
+                                                <option>Quincenal</option>
+                                                <option>Semanal</option>
+                                                <option>Trimestral</option>
+                                                <option>Semestral</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <h3>Gastos fijos</h3>
+                                        <i class="fas fa-utensils">Comida</i> <input type=""> 
+                                        <i class="fas fa-home">Renta</i> <input type="text"> 
+                                        <i class="fas fa-burn">Gas</i> <input type="text"> 
+                                        <i class="fas fa-wifi">Internet</i> <input type="">
+                                        <i class="fas fa-tint">Agua</i> <input type="text">
+                                        <i class="fas fa-lightbulb">Luz</i><input type="text">
+                                        <i class="fas fa-plus-circle">Agregar otro</i>
+                                    </div>
+                                </div>
+        
+                                <div>
+                                    <div>
+                                        <select name="month" id="monthsExpenses">
+                                            <option>Enero</option>
+                                            <option>Fedrero</option>
+                                            <option>Marzo</option>
+                                            <option>Abril</option>
+                                            <option>Mayo</option>
+                                            <option>Junio</option>
+                                            <option>Julio</option>
+                                            <option>Agosto</option>
+                                            <option>Septiembre</option>
+                                            <option>Octubrel</option>
+                                            <option>Noviembre</option>
+                                            <option>Diciembre</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                    <h3>Gastos Extra</h3>
+                                        <i class="fas fa-coffee">Café</i>
+                                        <i class="fas fa-plus-circle">Agregar otro</i>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <select name="month" id="monthsExpenses">
-                                    <option>Enero</option>
-                                    <option>Fedrero</option>
-                                    <option>Marzo</option>
-                                    <option>Abril</option>
-                                    <option>Mayo</option>
-                                    <option>Junio</option>
-                                    <option>Julio</option>
-                                    <option>Agosto</option>
-                                    <option>Septiembre</option>
-                                    <option>Octubrel</option>
-                                    <option>Noviembre</option>
-                                    <option>Diciembre</option>
-                                </select>
-                            </div>
-                            <div>Gastos fijos</div>
-                            <p>Comida</p>
-                            <i class="fas fa-utensils"></i> <input type=""> <p> $2,285</p>
-                            <p>Renta</p>
-                            <i class="fas fa-home"></i> <input type="text"> <p> $1,523.55</p>
-                            <p>Gas</p>
-                            <i class="fas fa-burn"></i> <input type="text"> <p> $500</p>
-                            <p>Internet</p>
-                            <i class="fas fa-wifi"></i> <input type=""> <p> $300</p>
-                            <p>Agua</p>
-                            <i class="fas fa-tint"></i> <input type="text"> <p> $150</p>
-                            <p>Luz</p>
-                            <i class="fas fa-lightbulb"></i> <input type="text"> <p> $138.25</p>
-                        </div>
-                        <div> Agrega Otro
-                                <i class="fas fa-question-circle"></i>
-                        </div>
-                        <div> Gasto Extra
-                            <p>Café</p>
-                            <i class="fas fa-coffee"></i><input type="text"> <p> $35</p>
-                            <p>Agregar otro</p>
-                            <i class="fas fa-plus-circle"></i>
-                        </div>
-                        <div>
-                            <h3>Saldo total $4,500</h3>
-                        </div>
-                    </div>
+                                <div>
+                                    <h3>Saldo total $4,500</h3>                                </div>
+                                </div>
+                     </div>
             </section>
 
             <section id="balance" class="hide">
@@ -237,7 +255,7 @@
     <aside>
         <div class="container-aside">
             <figure>
-                <img src="../img/logo.svg" alt="logo">
+                    <a id="btn-home" href="#home"><img src="../img/logo.svg" alt="logo"></a>
             </figure>
             <ul>
                 <li><a id="btn-incomes" href="#incomes">Ingresos</a></li>
