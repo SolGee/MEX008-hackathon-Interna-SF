@@ -62,8 +62,7 @@ nav {
     display: flex;
     justify-content: flex-start;
     width: 90%;
-    color: rgb(62, 62, 62);
-
+    
 }
 
 nav div {
@@ -74,6 +73,7 @@ nav div {
 }
 
 nav div i {
+    color: rgb(81, 80, 80);
     font-size: 3rem;
 }
 
@@ -112,6 +112,7 @@ section {
     color: rgb(68, 68, 68);
 }
 
+
 .hide {
     display: none;
 }
@@ -127,7 +128,7 @@ section {
 
 }
 
-#form-login {
+#form-login, {
     margin: 10vh auto;
     display: flex;
     flex-direction: column;
@@ -147,6 +148,12 @@ section {
     padding: 0.5rem;
     font-weight: 700;
     border-radius: 2rem;
+}
+
+#form-login button:hover {
+    cursor: pointer;
+    border-color: #036282;
+    border-style: solid;
 }
 
 
