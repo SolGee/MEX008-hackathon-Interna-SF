@@ -11,4 +11,13 @@ const registerButton = document.getElementById('btn-register');
 const incomesButton = document.getElementById('btn-incomes');
 const expensesButton = document.getElementById('btn-expenses');
 const balanceButton = document.getElementById('btn-balance');
-const goals = document.getElementById('btn-goals');
+const goalsButton = document.getElementById('btn-goals');
+
+//FUNCTIONS
+
+const showHomeSection = () => {
+    showSection ('home');
+    hideSection ('login-user');
+}
+
+signInButton.addEventListener('click', showHomeSection);
