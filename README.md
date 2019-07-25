@@ -41,6 +41,14 @@
 ![Sketh de Alta Fidelidad](https://xd.adobe.com/view/445dfd5f-e8ce-4c0c-515b-839f8e193e03-326c/screen/57b1bd94-4291-46a9-93aa-6950acedc90c/pantalla-1-5?fullscreen&hints=off)
 
 ## Modelo de Negocio
+Piggy Lab
+
+Su principal uso es orientar y ayudar a las estudiante y egresadas de laboratoria, asi como el público en general a poder tener un mayor conocimiento sobre gastos, ahorros y el uso de estos con el único fin de poder alcanzar susmetas de ahorro.
+
+Los principales patrocinadores de Piggy Lab serán Google y Facebook.
+Para el desarrollo de la web app se requiere el desarrollo de la aplicaión y la publicidad de la misma así como de un UX, un desarrollador front end y un UI.
+
+Se considera que la relación con el cliente se realizará a través de la plataforma de facebook. También se tiene planeado cobrar una cuota de inscripción y una anualidad.
 
 ## Análisis de heurísticas de usabilidad 
 El objetivo de la app web Piggy Lab es ayudar a las usuarias a manejar sus finanzas de manera saludable. Para ello se implementaron las siguientes funciones: 
@@ -78,3 +86,23 @@ Este apartado se encuentra en desarrollo por el momento, pero esta considerado e
 
 ### 10. Ayuda y documentación 
 Por el momento se encuentran en desarrollo, están considerados en nuestros alcances próximos. 
+
+
+## Importancia de la gestión saludable en finanzas
+Al analizar el resultado de nuestras encuentas nos dimos cuenta que la mayoría de las estudiantes y egresadas de Laboratoria no cuentan con el hábito de ahorrar, en consecuencia no tienen un fondo de ahorro para casos de emergencia e incluso no suelen fijar metas a corto, mediano y largo plazo. 
+
+Consideramos que contar con una buena salud financiera previene desastres económicos y te ayuda a lograr tus metas de manera más fácil y efectiva. Y es por todo lo anterior que creamos Piggy Lab. 
+
+## Distribución de trabajo para el desarrollo de Piggy Lab
+
+Solanyi Sandoval
+Realizó el prototipado digital de baja fidelidad, la estructura básica del html, estructura del css (maquetado) y desarrollo de funciones en JS con relación a el flujo de pantallas.
+
+Oyuki Collado
+Realizó la formulación de las preguntas para la encuesta, el diseño del logotipo de Piggy Lab, la elección de la paleta de colores a utilizar y colaboró con el estilizado del css.
+
+Thanya Ramírez 
+Realizó el user persona, las historias de usuario, ayudo a desarrollar la estructura del html, al igual de colaboro con el modelo de negocio de piggy lab.
+
+Rosa Isela López
+Contribuyó en el desarrollo del prototipo de alta fidelidad para mobile y desktop, el maquetado del HTML, el formulario que ayuda a agregar los gastos diarios y su almacenamiento en Local Storage. 
