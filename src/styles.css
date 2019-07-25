@@ -238,12 +238,12 @@ h4{
 }
 
 
-.gastos-fijos{
+.gastos-fijos, .gastos-extras{
 	width: auto;
 	display: flex;
-	 flex-direction: column;
-	  margin: 1rem 1rem 0 0rem;
-    height: auto;
+	flex-direction: column;
+	margin: 1rem 1rem 0 0rem;
+    height: 30vh;
     padding: 2rem;
     background-color: #f5f5f5;
     border-radius: 2rem;
@@ -252,20 +252,11 @@ h4{
     box-shadow: -7px 11px 5px 0px rgba(0,0,0,0.19);
 }
 
-.gastos-extras{
-	justify-content: right;
-	width: auto;
-	display: flex;
-	 flex-direction: column;
-	  margin: 1rem 1rem 0 0rem;
-    height: auto;
-    padding: 2rem;
-    background-color: #f5f5f5;
-    border-radius: 2rem;
-    -webkit-box-shadow: -7px 11px 5px 0px rgba(0,0,0,0.19);
-    -moz-box-shadow: -7px 11px 5px 0px rgba(0,0,0,0.19);
-    box-shadow: -7px 11px 5px 0px rgba(0,0,0,0.19);
+.gastos-fijos div, .gastos-extras div {
+    width: 20rem;
+    overflow: scroll;
 }
+
 .saldo-total{
 	 justify-content: right;
 	width: auto;
