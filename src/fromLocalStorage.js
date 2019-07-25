@@ -86,3 +86,29 @@ function addTask(e) {
 
   e.preventDefault();
 }
+
+// Store task
+function storeTaskInLocalStorage(task){
+  let tasks;
+  if(localStorage.getItem("tasks") === null){
+    tasks = [];
+  }else{
+    tasks = JSON.parse(localStorage.getItem("tasks"));
+  }
+
+  tasks.push(task);
+
+  localStorage.setItem("tasks", JSON.stringify(tasks));
+}
+
+// Remove Task
+function removeTask(e) {
+  if(e.target.parentElement.classList.contains('delete-item')) {
+    if(confirm('Are You Sure?')) {
+      e.target.parentElement.parentElement.remove();
+
+      // Remove from LS 
+      removeTaskLocalStorage(e.target.parentElement.parentElement);
+    }
+  }
+}
