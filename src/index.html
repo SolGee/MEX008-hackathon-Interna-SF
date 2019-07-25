@@ -20,7 +20,6 @@
         </header>
         <main>
             <section id="login-user">
-                <div class="minigeneral-left"></div>
                 <div class="general">
                     <div id="form-login">
                        <div>
@@ -29,9 +28,9 @@
                        <input type="text" placeholder="Username"><br>
                        <input type="password" placeholder="Password"><br>
                        <button id="btn-sign-in">Sign in</button>
+                       <pre>__________        o        __________</pre>
+                       <button id="btn-register">REGÍSTRATE</button>
                     </div>
-                    <pre>__________        o        __________</pre>
-                    <button id="btn-register">REGÍSTRATE</button>
                 </div>
             </section>
             <section id="register-user" class="hide">
@@ -47,8 +46,6 @@
                     <button id="form-enviar">Enviar</button>
                 </div>
             </section>
-            <section></section>
-
             <section id="incomes" class="hide">
                 <h2>¡Hola Laboratorian!</h2>
                 <p>Sabemos que las finanzas son un aspecto súper importante en tu vida
@@ -187,8 +184,40 @@
                         <option value="diciembre">Diciembre</option>
                     </select>
                 </div>
-                <div></div>
-                <div></div>
+                <div>
+                    <div>
+                        <pre>Gastos       /      Ingresos</pre>
+                        <i class="fas fa-chart-pie"></i>
+                        <ul>
+                            <li>Comida  50%</li>
+                            <li>Renta  30%</li>
+                            <li>Servicios  15%</li>
+                            <li>Otros  5%</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>Lista de gastos</p>
+                        <i class="fas fa-utensils"></i>
+                        <p>Comida</p>
+                        <p>$2,285</p>
+                        <i class="fas fa-home"></i>
+                        <p>Renta</p>
+                        <p>$1,523.55</p>
+                        <i class="fas fa-fire"></i>
+                        <p>Gas</p>
+                        <p>$500</p>
+                    </div>
+                    <div>
+                        <pre>¡Bien hecho! Tu saldo inicial alcanza para cubrir todos tus gastos.
+                        ¡Sigue así para lograr tus metas!
+                        </pre>
+                    </div>
+                </div>
+                <div>
+                    <p>Saldo disponible $4,500</p>
+                    <p>Viajar al extranjero - $2,000</p>
+                    <p>Saldo actual $2,500</p>
+                </div>
             </section>
             <section id="goals" class="hide"></section>
             <section id="modals" class="hide"></section>
@@ -201,10 +230,10 @@
                 <img src="../img/logo.svg" alt="logo">
             </figure>
             <ul>
-                <li><a href="#incomes">Ingresos</a></li>
-                <li><a href="#expenses">Gastos</a></li>
-                <li><a href="#balance">Equilibrio</a></li>
-                <li><a href="#goals">Metas</a></li>
+                <li><a id="btn-incomes" href="#incomes">Ingresos</a></li>
+                <li><a id="btn-expenses" href="#expenses">Gastos</a></li>
+                <li><a id="btn-balance" href="#balance">Equilibrio</a></li>
+                <li><a id="btn-goals" href="#goals">Metas</a></li>
             </ul>
         </div>
     </aside>

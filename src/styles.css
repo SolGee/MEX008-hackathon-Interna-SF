@@ -82,6 +82,10 @@ aside img {
     margin: 1rem auto;
 }
 
+section {
+    width: 80%;
+    margin: 0 auto;
+}
 
 .container-aside {
     display: flex;
@@ -106,4 +110,54 @@ aside img {
 .container-aside li a:hover {
     cursor: pointer;
     color: rgb(68, 68, 68);
+}
+
+.hide {
+    display: none;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+#form-login {
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#form-login i {
+    font-size: 10rem;
+    padding-bottom: 2rem;
+    color: #036282;
+}
+
+#form-login button {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    font-weight: 700;
+    border-radius: 2rem;
+}
+
+#form-login button:hover {
+    cursor: pointer;
+    border-color: #036282;
+    border-style: solid;
+}
+
+
+#form-login input {
+    width: 80%;
+    margin: 0 auto;
+    height: 2rem;;
 }
