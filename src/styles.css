@@ -42,9 +42,8 @@ aside {
 }
 
 header {
-    height: auto;
-    background-color:rgb(245, 245, 245);
-        
+    height: 10vh;
+    background-color:#ee6e73
 }
 
 main {
@@ -62,6 +61,8 @@ nav {
     display: flex;
     justify-content: flex-start;
     width: 90%;
+    box-shadow: none;
+
     
 }
 
@@ -69,11 +70,11 @@ nav div {
     display:flex;
     justify-content: flex-end;
     width: 4rem;
-    margin: 1rem 0 1rem 90% ;
+    margin: 1rem 0 3rem 90% ;
 }
 
 nav div i {
-    color: rgb(81, 80, 80);
+    color:white;
     font-size: 3rem;
 }
 
